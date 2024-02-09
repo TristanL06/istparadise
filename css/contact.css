@@ -138,3 +138,36 @@
 .contact .btn:hover {
     background-color: #0056b3;
 }*/
+
+/* if we are on phone height grater than width */
+@media (max-aspect-ratio: 1){
+    .contact_container {
+        display: block;
+        padding-top: 20px;
+        width: 80vw;
+        font-size: 1.5em;
+        height: inherit;
+        margin: auto;
+    }
+
+    .contact {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-bottom: calc(40px + 1.5em);
+    }
+
+    .contact_informations {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contact_informations h1 {
+        text-align: center;
+    }
+
+    select {
+        font-size: 1em;
+    }
+}

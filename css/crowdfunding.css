@@ -96,3 +96,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+@media (max-aspect-ratio: 1) {
+    .small {
+        height: 10vh;
+    }
+}
