@@ -30,3 +30,40 @@ ul {
   li a:hover {
     background-color: #111;
   }
+
+  .italics {
+    font-style: italic;
+  }
+
+  .partnerLogo {
+    height: 200px;
+  }
+
+  .partner:first-child img {
+    margin-left: 46px;
+  }
+
+  .partner {
+    height: 200px;
+    width: 253px;
+    background-color: white;
+  }
+
+  .partners {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+  }
+
+  @media (max-width: 1012) {
+    .partners {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 506px) {
+    .partners {
+      grid-template-columns: 1fr;
+    }
+  }
