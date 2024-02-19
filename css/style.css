@@ -35,6 +35,15 @@ ul {
     font-style: italic;
   }
 
+  .presentation {
+    text-align: center;
+  }
+
+  footer a {
+    color: var(--primary-font-color);
+    text-decoration: none;
+  }
+
   .partnerLogo {
     height: 200px;
   }

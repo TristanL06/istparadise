@@ -184,8 +184,7 @@ header nav .active {
 
 /* Footer styles */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--primary-font-color);
     text-align: center;
-    padding: 20px 0;
 }
